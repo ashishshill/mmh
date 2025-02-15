@@ -1,8 +1,9 @@
 {
-  "name": "",
+  "name": "mmh",
   "private": true,
   "sideEffects": false,
   "type": "module",
+  "homepage": "https://ashishshill.github.io/mmh/",
   "scripts": {
     "build": "remix vite:build",
     "dev": "remix vite:dev",
