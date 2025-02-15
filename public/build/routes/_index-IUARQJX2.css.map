@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["carousel.css"],
+  "sourcesContent": [".carousel-item {\n    width: 100%;\n    height: 100%;\n    transition: transform 0.7s ease-in-out;\n  }\n  \n  button {\n    transition: background-color 0.3s ease;\n  }\n  \n  .carousel-container {\n    overflow: hidden;\n    width: 100%;\n    display: flex;\n  }\n  \n  .carousel-inner {\n    display: flex;\n    width: 100%;\n    transition: transform 0.5s ease-in-out;\n  }\n  \n  @media (max-width: 768px) {\n    .carousel-item {\n      flex-direction: column;\n      text-align: center;\n    }\n  \n    .carousel-item .text-box {\n      padding: 20px;\n    }\n  }\n  "],
+  "mappings": ";AAAA;AACI;AACA;AACA;;AAGF;AACE;;AAGF;AACE;AACA;AACA;;AAGF;AACE;AACA;AACA;;AAGF;AACE;AACE;AACA;;AAGF;AACE;;;",
+  "names": []
+}

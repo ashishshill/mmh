@@ -1,0 +1,29 @@
+/* css-side-effects-plugin-ns:app/styles/carousel.css */
+.carousel-item {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.7s ease-in-out;
+}
+button {
+  transition: background-color 0.3s ease;
+}
+.carousel-container {
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+}
+.carousel-inner {
+  display: flex;
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+@media (max-width: 768px) {
+  .carousel-item {
+    flex-direction: column;
+    text-align: center;
+  }
+  .carousel-item .text-box {
+    padding: 20px;
+  }
+}
+/*# sourceMappingURL=/build/routes/_index-IUARQJX2.css.map */
