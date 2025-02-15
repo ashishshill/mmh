@@ -1,0 +1,21 @@
+html body nav{
+    /* background-color: #e5e7eb; */
+    box-shadow: none;
+}
+nav {
+    position: relative;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  
+  .logo-container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
